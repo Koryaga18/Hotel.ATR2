@@ -1,0 +1,68 @@
+﻿<!-- Breadcrumb Area Start-->
+<section class="breadcrumb-area overlay-dark-2 bg-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumb-text text-center">
+                    <h2>Contact Us</h2>
+                    <p>A quality room of hotel ATR with sea or mountain view</p>
+                    <div class="breadcrumb-bar">
+                        <ul class="breadcrumb">
+                            <li><a href="index.html">Home</a></li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Area End -->
+<!-- Contact Form Area Start -->
+<section class="contact-form-area pt-90">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h4 class="contact-title">contact info</h4>
+                <div class="contact-text">
+                    <p><span class="c-icon"><i class="zmdi zmdi-phone"></i></span><span class="c-text">+88 018 785 454 589</span></p>
+                    <p><span class="c-icon"><i class="zmdi zmdi-email"></i></span><span class="c-text">devitems@email.com</span></p>
+                    <p>
+                        <span class="c-icon"><i class="zmdi zmdi-pin"></i></span><span class="c-text">
+                            House 09, Road 32, Mohammadpur,<br>
+                            Dhaka-1200, UK
+                        </span>
+                    </p>
+                </div>
+                <h4 class="contact-title">social media</h4>
+                <div class="link-social">
+                    <a href="https://www.facebook.com/"><i class="zmdi zmdi-facebook"></i></a>
+                    <a href="https://www.rss.com/"><i class="zmdi zmdi-rss"></i></a>
+                    <a href="https://plus.google.com/"><i class="zmdi zmdi-google-plus"></i></a>
+                    <a href="https://www.pinterest.com/"><i class="zmdi zmdi-pinterest"></i></a>
+                    <a href="https://www.instagram.com/"><i class="zmdi zmdi-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <h4 class="contact-title">send your massage</h4>
+                <form id="contact-form" action="@Url.Action("login","Home")" method="post">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" name="login" placeholder="Enter Login">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="password" name="password" placeholder="Enter Password">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="hidden" name="ReturnUrl" value="@ViewBag.ReturnUrl" >
+                            
+                            <button type="submit" class="default-btn">SUBMIT</button>
+                        </div>
+                    </div>
+                </form>
+                <p class="form-messege"></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact Form Area End -->
